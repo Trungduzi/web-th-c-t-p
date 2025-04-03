@@ -1,0 +1,131 @@
+html{
+    background-color: white;
+    height: 3000px;
+}
+
+
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+    display: block;
+}
+
+#header{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 62px;
+    background-color: rgb(113, 190, 52);
+}
+
+.header__item{
+    color: black;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header__item__top{
+    cursor:context-menu;
+    color: black;
+    display: block;
+    padding: 22px 0px;
+}
+
+.header__item__main{
+    padding: 0px;
+    position: absolute;
+    top: 62px;
+    display: none;
+}
+
+.sub__main{
+    padding: 10px 80px 10px 25px;
+    width: 150px;
+    display: block;
+    padding: 12px 0px 12px 20px; 
+}
+
+.sub__main:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header__item:hover .header__item__main{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#slide{
+    top: 0;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 63px;
+    padding-top: 500px;
+    background: url(https://homehome.vn/wp-content/uploads/6-mau-hinh-anh-noi-that-nha-dep-theo-phong-cach-hien-dai-6.jpg)  top center / cover no-repeat;
+}
+
+.contentsl{
+    position: relative;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+}
+
+#content{
+    position: relative;
+    left: 50%;
+    top: 0px;
+    margin-top: 700px;
+    transform: translate(-50%, 0%);
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.content1{
+    margin: 10px;
+    text-align: center;
+}
+
+.content2{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+.content3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.list{
+    margin-top: 30px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: context-menu;
+}
+
+.item{
+    float: left;
+}
+
+.item__img{
+    width: 248px;
+    height: 200px;
+}
+
+.name{
+    background: top center / cover no-repeat;
+    position: absolute;
+}
+
+ul{
+    list-style-type: none;
+}
